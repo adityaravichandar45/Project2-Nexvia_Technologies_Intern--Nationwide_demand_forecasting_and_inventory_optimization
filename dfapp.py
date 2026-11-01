@@ -11,10 +11,10 @@ print("Initializing Dashboard...")
 # 1. Initialize Dash App
 my_app = dash.Dash(__name__)
 
-# 2. EXPOSE THE FLASK SERVER FOR GUNICORN (Named 'server')
+# 2. EXPOSING THE FLASK SERVER FOR GUNICORN
 server = my_app.server
 
-# 3. Safely load the model
+# 3. loading the model
 try:
     model = joblib.load('lgb_dfio_model.pkl')
     print("Joblib model loaded successfully!")
