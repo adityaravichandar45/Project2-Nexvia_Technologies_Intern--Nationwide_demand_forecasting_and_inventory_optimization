@@ -55,7 +55,7 @@ app.layout = html.Div(style={'padding': '30px', 'fontFamily': 'Arial'}, children
 )
 def make_prediction(n_clicks, *feature_values):
     if n_clicks == 0:
-        return "Click 'Predict Sales' to see results.", px.bar(title="Awaiting Input...")
+        return "Click 'Predict Sales' to see results."
 
     # Creating a DataFrame for matching the model's expected features
     input_df = pd.DataFrame([feature_values], columns=FEATURE_NAMES)
