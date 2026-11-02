@@ -67,7 +67,7 @@ def make_prediction(n_clicks, *feature_values):
     output_text = f"Predicted Target Value: {prediction:.2f}"
 
     # Creating a simple visualization of the inputs/prediction
-    fig = px.line(
+    fig = px.bar(
         x=FEATURE_NAMES,
         y=feature_values,
         labels={'x': 'Features', 'y': 'Input Value'},
