@@ -7,8 +7,8 @@ An end-to-end nationwide demand forecasting and inventory optimization pipeline 
 ---
 
 ## Live Demo
-* **Deployed Web Application:** Access Live App on Render- https://project2-nexvia-technologies-intern.onrender.com/
-                             ** Access Live App on PlotlyCloud -https://dfioadi.plotly.app/
+* **Deployed Web Application:1) Access Live App on Render- https://project2-nexvia-technologies-intern.onrender.com/
+                             2) Access Live App on PlotlyCloud -https://dfioadi.plotly.app/
 
 ---
 
